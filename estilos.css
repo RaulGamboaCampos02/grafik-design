@@ -286,6 +286,7 @@ textarea
 	background: rgba(81, 46, 95, 0.8);
 	padding: 13px;
 	border: none;
+	color: #fff;
 	font-family: 'open sans';
 	margin-bottom: 16px;
 }
@@ -298,4 +299,62 @@ input[type="submit"]
 	color: #fff;
 	background: rgba(81, 46, 95, 0.8);
 	width: 96px;
+}
+
+@media screen and (max-width: 900px)
+{
+	.card
+	{
+		width: 45%;
+	}
+}
+
+@media screen and (max-width: 610px)
+{
+	header .textos
+	{
+		margin-top: 130px;
+	}
+	header .titulo
+	{
+		font-size: 75px;
+	}
+
+	.none
+	{
+		display: none;
+	}
+	.imagenes
+	{
+		flex-grow: 1;
+	}
+
+	.card
+	{
+		width: 90%;
+	}
+
+	.fondo
+	{
+		height: auto;
+	}
+}
+
+@media screen and (max-width: 380px)
+{
+	header .textos
+	{
+		margin-top: 100px;
+	}
+
+	header .titulo
+	{
+		font-size: 65px;
+	}
+
+	header .subtitulo
+	{
+		font-size: 25px;
+		margin-bottom: 32px;
+	}
 }
